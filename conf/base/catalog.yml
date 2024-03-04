@@ -1,0 +1,15 @@
+"{name}_data":
+  type: pandas.CSVDataset
+  filepath: data/01_downloaded/{name}_data.csv
+
+"{name}_numerical_features_binary_target_balanced_data":
+  type: pandas.CSVDataset
+  filepath: data/02_transformed/numerical_features/binary_target/balanced/{name}_data.csv
+
+"{name}_numerical_features_binary_target_imbalanced_data":
+  type: pandas.CSVDataset
+  filepath: data/02_transformed/numerical_features/binary_target/imbalanced/{name}_data.csv
+
+"{name}_numerical_features_binary_target_imbalanced_data_{factor}":
+  type: pandas.CSVDataset
+  filepath: data/03_processed/numerical_features/binary_target/imbalanced/{name}_data_{factor}.csv

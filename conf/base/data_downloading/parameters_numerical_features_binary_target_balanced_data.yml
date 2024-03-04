@@ -1,0 +1,8 @@
+numerical_features_binary_target_balanced_data_urls:
+  banknote_authentication: "00267/data_banknote_authentication.txt"
+  arcene: "arcene/"
+  audit: "00475/audit_data.zip"
+  spambase: "spambase/spambase.data"
+  parkinsons: "parkinsons/parkinsons.data"
+  ionosphere: "ionosphere/ionosphere.data"
+  breast_cancer: "breast-cancer-wisconsin/wdbc.data"
